@@ -5,6 +5,7 @@ import tinderLogo from '../../assets/images/tinder.svg'
 import PersonIcon from '@mui/icons-material/Person';
 import ForumIcon from '@mui/icons-material/Forum';
 import IconButton from '@mui/material/IconButton';
+import AnalyticsIcon from '@mui/icons-material/Analytics';
 
 
 function Header() {
@@ -23,6 +24,11 @@ function Header() {
             <IconButton>
                 <ForumIcon fontSize="large" className="header__icon" />
             </IconButton>
+
+            <IconButton>
+                <AnalyticsIcon fontSize="large" className="header__icon" />
+            </IconButton>
+
 
         </div>
     )
